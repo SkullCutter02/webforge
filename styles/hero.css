@@ -44,13 +44,13 @@
 
 .wave:nth-child(2) {
   background: url("../public/waves/orange.svg") repeat-x;
-  animation: wave 4s linear infinite;
+  animation: wave 3.5s linear infinite;
   bottom: -60px;
 }
 
 .wave:nth-child(3) {
   background: url("../public/waves/white.svg") repeat-x;
-  animation: wave 5s linear infinite;
+  animation: wave 4s linear infinite;
   z-index: 20;
   bottom: -150px;
 }
