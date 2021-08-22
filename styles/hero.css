@@ -11,6 +11,7 @@
   transform: translate(35px, -50%);
   color: var(--colorLight);
   font-size: calc(2em + 1.6vw);
+  z-index: 20;
 }
 
 .hero h1 span {
