@@ -39,20 +39,20 @@
 .wave:nth-child(1) {
   background: url("../public/waves/red.svg") repeat-x;
   animation: wave 3s linear infinite;
-  bottom: 30px;
+  bottom: 20px;
 }
 
 .wave:nth-child(2) {
   background: url("../public/waves/orange.svg") repeat-x;
   animation: wave 3.5s linear infinite;
-  bottom: -60px;
+  bottom: -70px;
 }
 
 .wave:nth-child(3) {
   background: url("../public/waves/white.svg") repeat-x;
   animation: wave 4s linear infinite;
   z-index: 20;
-  bottom: -150px;
+  bottom: -160px;
 }
 
 @keyframes wave {
