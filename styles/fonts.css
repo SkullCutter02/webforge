@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Telegraf";
+  src: url("../fonts/Telegraf Regular 400.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Telegraf";
+  src: url("../fonts/Telegraf UltraBold 800.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Telegraf";
+  src: url("../fonts/Telegraf UltraLight 200.otf") format("opentype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/FontsFree-Net-TTFirsNeue1.ttf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/FontsFree-Net-TTFirsNeue2.ttf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/FontsFree-Net-TTFirsNeue3.ttf") format("opentype");
+  font-weight: 200;
+}
