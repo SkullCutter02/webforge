@@ -32,22 +32,24 @@
   position: absolute;
   width: 6400px;
   height: 230px;
-  animation: wave 3s linear infinite;
   transform: translate3d(0, 0, 0);
 }
 
 .wave:nth-child(1) {
   background: url("../public/waves/red.svg") repeat-x;
-  bottom: -30px;
+  animation: wave 3s linear infinite;
+  bottom: 30px;
 }
 
 .wave:nth-child(2) {
   background: url("../public/waves/orange.svg") repeat-x;
-  bottom: -90px;
+  animation: wave 4s linear infinite;
+  bottom: -60px;
 }
 
 .wave:nth-child(3) {
   background: url("../public/waves/white.svg") repeat-x;
+  animation: wave 5s linear infinite;
   z-index: 20;
   bottom: -150px;
 }
