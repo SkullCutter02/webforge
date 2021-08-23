@@ -13,8 +13,6 @@
 }
 
 .about-us-text-content p {
-  line-height: 1.8em;
-  font-weight: 300;
   margin-top: 10px;
 }
 
@@ -35,4 +33,51 @@
   width: 100%;
   border-radius: 50%;
   border: 5px solid var(--grayColor);
+}
+
+/* meet the team */
+
+.meet-the-team {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.meet-the-team-description {
+  text-align: center;
+  margin: 10px auto;
+  width: 35%;
+  min-width: 300px;
+}
+
+.meet-the-team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px;
+  grid-column-gap: 10vw;
+  margin-top: 40px;
+}
+
+.meet-the-team-members > * {
+  overflow: hidden;
+}
+
+.meet-the-team-members img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.meet-the-team-members .join-our-team {
+  background: var(--primaryColor);
+  border-radius: 7px;
+  color: white;
+  padding: 40px 25px;
+}
+
+.meet-the-team-members .join-our-team h1 {
+  font-size: calc(2em + 2vw);
+  word-wrap: break-word;
+  line-height: 1em;
+  font-family: var(--secondFont);
 }
