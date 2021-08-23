@@ -7,6 +7,8 @@
   --colorDark: #000;
   --navbarHeight: 80px;
   --primaryColor: #e2403d;
+  --secondFont: "Telegraf", serif;
+  --thirdFont: "TTFirsNeue", serif;
 }
 
 * {
@@ -14,12 +16,4 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
-}
-
-.second-font {
-  font-family: "Telegraf", serif;
-}
-
-.third-font {
-  font-family: "TTFirsNeue", serif;
 }

@@ -12,10 +12,12 @@
   color: var(--colorLight);
   font-size: calc(2em + 1.6vw);
   z-index: 20;
+  font-family: var(--secondFont);
 }
 
 .hero h1 span {
   color: var(--primaryColor);
+  font-family: var(--secondFont);
 }
 
 .waves {

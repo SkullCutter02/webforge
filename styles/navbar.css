@@ -16,6 +16,7 @@ nav {
 .logo h1 {
   font-size: 1.6rem;
   color: var(--primaryColor);
+  font-family: var(--thirdFont);
 }
 
 .logo p {
