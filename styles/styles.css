@@ -28,6 +28,33 @@ body {
   position: relative;
 }
 
+.white-container {
+  background: var(--bgLight);
+}
+
+.black-container {
+  background: var(--bgDark);
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 136px;
+  transform: translateY(130px);
+  z-index: 5;
+}
+
+.white-container::after {
+  background: url("../public/waves/down_white.svg");
+}
+
+.black-container::after {
+  background: url("../public/waves/down_black.svg");
+}
+
 .container-number {
   position: absolute;
   top: 0;
