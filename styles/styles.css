@@ -24,8 +24,12 @@ body {
 }
 
 .container {
-  padding: 150px 6vw;
+  padding: 290px 6vw 150px 6vw;
   position: relative;
+}
+
+.initial-container {
+  padding: 150px 6vw;
 }
 
 .white-container {
@@ -55,29 +59,19 @@ body {
   z-index: 5;
 }
 
-.white-container::after {
+.white-container:not(.not-section)::after {
   background: url("../public/waves/down_white.svg");
 }
 
-.black-container::after {
+.black-container:not(.not-section)::after {
   background: url("../public/waves/down_black.svg");
-}
-
-.container-number {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 15rem;
-  z-index: -1;
-  color: var(--grayColor);
-  font-family: var(--secondFont);
-  transform: translateX(-80px);
 }
 
 .container-title {
   font-size: calc(1.8em + 2vw);
   position: relative;
   font-family: var(--secondFont);
+  z-index: 1;
 }
 
 .container-title::before {
@@ -89,9 +83,16 @@ body {
   max-height: 9rem;
   line-height: 9rem;
   z-index: -1;
-  color: #efefef;
   font-family: var(--secondFont);
   transform: translateX(calc(-7vw - 60px));
+}
+
+.white-container .container-title::before {
+  color: #efefef !important;
+}
+
+.black-container .container-title::before {
+  color: #252525 !important;
 }
 
 .text-content {
