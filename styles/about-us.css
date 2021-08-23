@@ -1,3 +1,7 @@
+.about-us-container-title::before {
+  content: "01";
+}
+
 .about-us-text-logo-container {
   display: flex;
   align-items: center;

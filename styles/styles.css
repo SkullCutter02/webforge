@@ -45,7 +45,6 @@ body {
 }
 
 .container-title::before {
-  content: "01";
   display: inline;
   position: absolute;
   bottom: 0;
