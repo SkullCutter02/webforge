@@ -38,19 +38,19 @@
 
 .wave:nth-child(1) {
   background: url("../public/waves/red.svg") repeat-x;
-  animation: wave 3s linear infinite;
+  animation: wave 3s linear infinite, swell 7s ease -1.25s infinite;
   bottom: 20px;
 }
 
 .wave:nth-child(2) {
   background: url("../public/waves/orange.svg") repeat-x;
-  animation: wave 3.5s linear infinite;
+  animation: wave 3.5s linear infinite, swell 7s ease -1.25s infinite;
   bottom: -70px;
 }
 
 .wave:nth-child(3) {
   background: url("../public/waves/white.svg") repeat-x;
-  animation: wave 4s linear infinite;
+  animation: wave 4s linear infinite, swell 7s ease -1.25s infinite;
   z-index: 20;
   bottom: -160px;
 }
@@ -61,5 +61,15 @@
   }
   100% {
     margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%,
+  100% {
+    transform: translate3d(0, -25px, 0);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0);
   }
 }
