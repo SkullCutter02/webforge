@@ -1,5 +1,11 @@
+.about-us-text-logo-container {
+  display: flex;
+  align-items: center;
+}
+
 .about-us-text-content {
   width: 35%;
+  margin-right: 5%;
 }
 
 .about-us-text-content p {
@@ -11,4 +17,18 @@
 .about-us-text-content span {
   color: var(--primaryColor);
   font-weight: bold;
+}
+
+.about-us-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 3%;
+  grid-row-gap: 30px;
+  width: 60%;
+}
+
+.about-us-logos img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid var(--grayColor);
 }

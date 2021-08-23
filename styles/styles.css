@@ -5,6 +5,7 @@
   --bgDark: #000;
   --colorLight: #fff;
   --colorDark: #000;
+  --grayColor: #efefef;
   --navbarHeight: 80px;
   --primaryColor: #e2403d;
   --secondFont: "Telegraf", serif;
@@ -33,7 +34,7 @@ body {
   left: 0;
   font-size: 15rem;
   z-index: -1;
-  color: #efefef;
+  color: var(--grayColor);
   font-family: var(--secondFont);
   transform: translateX(-80px);
 }
