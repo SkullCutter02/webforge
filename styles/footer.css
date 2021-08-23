@@ -1,5 +1,37 @@
 footer {
   width: 100%;
   background: var(--bgDark);
-  padding: 40px 0;
+  height: 126px;
+  padding: 0 35px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+footer .logo {
+  display: inline;
+}
+
+.footer-links ul {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links ul li {
+  display: flex;
+  list-style: none;
+  margin: 0 calc(1em + 1vw);
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: var(--bgLight);
+  font-weight: 800;
+  font-size: calc(0.4em + 0.8vw);
 }
