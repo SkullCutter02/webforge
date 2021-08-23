@@ -48,7 +48,7 @@ body {
   color: var(--colorLight);
 }
 
-.container::after {
+.container:not(.last-container)::after {
   content: "";
   position: absolute;
   bottom: 0;
