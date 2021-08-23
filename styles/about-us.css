@@ -32,7 +32,6 @@
 .about-us-logos img {
   width: 100%;
   border-radius: 50%;
-  border: 5px solid var(--grayColor);
 }
 
 /* meet the team */
@@ -75,7 +74,7 @@
 }
 
 .meet-the-team-members .join-our-team h1 {
-  font-size: calc(1em + 2vw);
+  font-size: calc(2em + 2vw);
   word-wrap: break-word;
   line-height: 1em;
   font-family: var(--secondFont);
