@@ -67,8 +67,11 @@
 .meet-the-team-members .join-our-team {
   background: var(--primaryColor);
   border-radius: 7px;
-  color: white;
   padding: 40px 25px;
+}
+
+.meet-the-team-members .join-our-team * {
+  color: var(--colorLight);
 }
 
 .meet-the-team-members .join-our-team h1 {
