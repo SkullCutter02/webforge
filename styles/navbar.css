@@ -3,8 +3,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: var(--navbarHeight);
-  background: var(--bgDark);
-  color: var(--colorLight);
   padding: 0 35px;
   position: fixed;
   top: 0;
@@ -38,6 +36,5 @@ nav ul li {
 nav ul li a {
   font-weight: 800;
   text-decoration: none;
-  color: white;
   font-size: calc(0.4em + 0.8vw);
 }

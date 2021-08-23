@@ -1,6 +1,5 @@
 .hero {
   height: 100vh;
-  background: var(--bgDark);
   position: relative;
 }
 
@@ -9,7 +8,6 @@
   top: 50%;
   left: 0;
   transform: translate(35px, -50%);
-  color: var(--colorLight);
   font-size: calc(2em + 1.6vw);
   z-index: 20;
   font-family: var(--secondFont);

@@ -32,8 +32,16 @@ body {
   background: var(--bgLight);
 }
 
+.white-container * {
+  color: var(--colorDark);
+}
+
 .black-container {
   background: var(--bgDark);
+}
+
+.black-container * {
+  color: var(--colorLight);
 }
 
 .container::after {
