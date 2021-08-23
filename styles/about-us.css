@@ -1,0 +1,14 @@
+.about-us-text-content {
+  width: 35%;
+}
+
+.about-us-text-content p {
+  line-height: 1.8em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.about-us-text-content span {
+  color: var(--primaryColor);
+  font-weight: bold;
+}
