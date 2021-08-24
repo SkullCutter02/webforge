@@ -18,7 +18,7 @@ nav {
 .logo h1 {
   font-size: 1.6rem;
   color: var(--primaryColor);
-  font-family: var(--thirdFont);
+  font-family: var(--ttFirstNeueFont);
 }
 
 .logo p {
@@ -54,7 +54,7 @@ nav ul li a:after {
   content: "";
   position: absolute;
   width: 0;
-  height: 15%;
+  height: 20%;
   background: var(--bgLight);
   left: 0;
   top: 110%;

@@ -68,7 +68,7 @@
 .meet-the-team-members .join-our-team {
   background: var(--primaryColor);
   border-radius: 7px;
-  padding: 40px 25px;
+  padding: 50px 30px;
 }
 
 .meet-the-team-members .join-our-team * {
@@ -79,9 +79,65 @@
   font-size: calc(2em + 2vw);
   word-wrap: break-word;
   line-height: 1em;
-  font-family: var(--secondFont);
+  font-family: var(--telegrafFont);
 }
 
 .meet-the-team-members .join-our-team p {
   margin-top: 5px;
+}
+
+.member {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px 30px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.7) 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 7px;
+  height: 25%;
+  transition: all 0.2s;
+}
+
+.member:hover .overlay {
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.7) 85%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  cursor: pointer;
+}
+
+.name {
+  color: #fff;
+  font-size: 30px;
+}
+
+.title {
+  color: var(--primaryColor);
+  font-family: var(--ttFirstNeueFont);
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.bio {
+  height: 0;
+  pointer-events: none;
+  color: white;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.member:hover .bio {
+  opacity: 1;
+  height: auto;
 }

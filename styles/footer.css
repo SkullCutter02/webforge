@@ -54,5 +54,5 @@ footer .arrow {
 }
 
 footer .arrow:hover {
-  background: var(--secondaryColor);
+  background: #fff;
 }
