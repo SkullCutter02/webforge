@@ -8,10 +8,6 @@ footer {
   position: relative;
 }
 
-footer .logo {
-  display: inline;
-}
-
 .footer-links ul {
   position: absolute;
   width: 100%;
@@ -30,10 +26,15 @@ footer .logo {
 }
 
 .footer-links ul li a {
+  color: #fff;
   text-decoration: none;
-  color: var(--bgLight);
   font-weight: 800;
   font-size: calc(0.4em + 0.8vw);
+  transition: all 0.2s;
+}
+
+.footer-links ul li a:hover {
+  color: var(--primaryColor);
 }
 
 footer .arrow {
