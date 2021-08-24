@@ -10,12 +10,12 @@
   transform: translate(35px, -50%);
   font-size: calc(2em + 1.6vw);
   z-index: 20;
-  font-family: var(--secondFont);
+  font-family: var(--telegrafFont);
 }
 
 .hero h1 span {
   color: var(--primaryColor);
-  font-family: var(--secondFont);
+  font-family: var(--telegrafFont);
 }
 
 .waves {
@@ -44,13 +44,13 @@
 
 .wave:nth-child(2) {
   background: url("../public/waves/orange.svg") repeat-x;
-  animation: wave 3.5s linear infinite, swell 7s ease -1.25s infinite;
+  animation: wave 3s linear infinite, swell 7s ease -1.25s infinite;
   bottom: -70px;
 }
 
 .wave:nth-child(3) {
   background: url("../public/waves/white.svg") repeat-x;
-  animation: wave 4s linear infinite, swell 7s ease -1.25s infinite;
+  animation: wave 3s linear infinite, swell 7s ease -1.25s infinite;
   z-index: 20;
   bottom: -160px;
 }
@@ -67,9 +67,9 @@
 @keyframes swell {
   0%,
   100% {
-    transform: translate3d(0, -25px, 0);
+    transform: translate3d(0, -80px, 0);
   }
   50% {
-    transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 0px, 0);
   }
 }

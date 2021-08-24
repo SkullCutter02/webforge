@@ -9,8 +9,8 @@
   --navbarHeight: 80px;
   --primaryColor: #e2403d;
   --secondaryColor: #ff8a00;
-  --secondFont: "Telegraf", serif;
-  --thirdFont: "TTFirsNeue", serif;
+  --telegrafFont: "Telegraf", serif;
+  --ttFirstNeueFont: "TTFirsNeue", serif;
 }
 
 * {
@@ -32,7 +32,7 @@ body {
 }
 
 .initial-container {
-  padding: 150px 6vw;
+  padding: 250px 6vw;
 }
 
 .white-container {
@@ -73,7 +73,7 @@ body {
 .container-title {
   font-size: calc(1.8em + 2vw);
   position: relative;
-  font-family: var(--secondFont);
+  font-family: var(--telegrafFont);
   z-index: 1;
 }
 
@@ -86,7 +86,7 @@ body {
   max-height: 9rem;
   line-height: 9rem;
   z-index: -1;
-  font-family: var(--secondFont);
+  font-family: var(--telegrafFont);
   transform: translateX(calc(-7vw - 60px));
 }
 
