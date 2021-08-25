@@ -1,3 +1,75 @@
 .portfolio-container-title::before {
   content: "02";
 }
+
+.projects-container {
+  margin: 30px 0;
+}
+
+.project-container {
+  position: relative;
+}
+
+.project-container:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+.project-container img {
+  width: 70%;
+  border-radius: 12px;
+}
+
+.project-container:nth-child(even) img {
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+}
+
+.project-information {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+}
+
+.project-container:nth-child(odd) .project-information {
+  right: 0;
+}
+
+.project-container:nth-child(even) .project-information {
+  left: 0;
+}
+
+.project-container:nth-child(odd) .project-information > * {
+  text-align: end;
+}
+
+.project-container:nth-child(even) .project-information > * {
+  text-align: start;
+}
+
+.featured-project {
+  color: var(--primaryColor);
+}
+
+.project-name {
+  margin-bottom: 10px;
+}
+
+.project-description {
+  background: #212121;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #474747;
+  font-size: 0.95rem;
+  line-height: 1.4em;
+}
+
+.project-link-logo {
+  color: var(--primaryColor);
+  margin-top: 10px;
+}
+
+.project-container:nth-child(odd) .project-link-logo {
+  float: right;
+}
