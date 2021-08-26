@@ -50,6 +50,7 @@
 
 .featured-project {
   color: var(--primaryColor);
+  font-family: var(--ttFirstNeueFont);
 }
 
 .project-name {
