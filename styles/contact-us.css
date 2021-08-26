@@ -1,3 +1,14 @@
 .contact-us-container-title::before {
   content: "03";
 }
+
+.webforge-pattern {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../public/pattern.svg") repeat-y;
+  background-size: contain;
+  transform: translateX(30%);
+}
