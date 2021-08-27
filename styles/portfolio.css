@@ -17,6 +17,7 @@
 .project-container img {
   width: 70%;
   border-radius: 12px;
+  pointer-events: none;
 }
 
 .project-container:nth-child(even) img {

@@ -103,7 +103,7 @@
   );
   border-radius: 7px;
   height: 25%;
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 
 .member:hover .overlay {
