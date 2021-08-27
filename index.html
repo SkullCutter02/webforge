@@ -173,8 +173,45 @@
       class="container last-container white-container contact-us"
       id="contact"
     >
+      <form class="contact-us-form">
+        <h1 class="container-title contact-us-container-title">contact us</h1>
+        <p class="text-content contact-us-description">
+          We offer our services free of charge to all non-profit organizations.
+          Let’s work together!
+        </p>
+
+        <label for="name">your name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Type your name here"
+        />
+
+        <label for="email">your email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Type your email address here"
+        />
+
+        <label for="message">your message</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Please include a brief description of your organization and the features you want your website to have"
+        ></textarea>
+
+        <p class="contact-us-disclaimer">
+          Disclaimer: although our services are free, please understand that we
+          will not cover the cost of your domain if you want a paid one. We will
+          also not cover the fees of hosting the website.
+        </p>
+
+        <button type="submit">send message</button>
+      </form>
       <div class="webforge-pattern"></div>
-      <h1 class="container-title contact-us-container-title">contact us</h1>
     </section>
 
     <footer>
@@ -189,10 +226,11 @@
           <li><a href="#portfolio">portfolio</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
-        <a href="#home"
-          ><div class="arrow">
-            <i class="fas fa-arrow-up arrow-image fa-2x"></i></div
-        ></a>
+        <a href="#home">
+          <div class="arrow">
+            <i class="fas fa-arrow-up arrow-image fa-2x"></i>
+          </div>
+        </a>
       </div>
     </footer>
   </body>
