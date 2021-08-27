@@ -16,7 +16,8 @@
 
 .project-container img {
   width: 70%;
-  border-radius: 12px;
+  border-radius: 6px;
+  pointer-events: none;
 }
 
 .project-container:nth-child(even) img {
@@ -73,4 +74,25 @@
 
 .project-container:nth-child(odd) .project-link-logo {
   float: right;
+}
+
+@media screen and (max-width: 800px) {
+  .project-container img {
+    width: 100%;
+  }
+
+  .project-information {
+    position: initial;
+    width: 100%;
+    transform: initial;
+    margin-top: 15px;
+  }
+
+  .project-information * {
+    text-align: left !important;
+  }
+
+  .project-container a {
+    float: left;
+  }
 }
