@@ -18,6 +18,7 @@
   width: 70%;
   border-radius: 6px;
   pointer-events: none;
+  border: 1px solid #474747;
 }
 
 .project-container:nth-child(even) img {
@@ -60,11 +61,15 @@
 
 .project-description {
   background: #212121;
+  border: 1px solid #474747;
   padding: 15px;
   border-radius: 6px;
-  border: 1px solid #474747;
   font-size: 0.95rem;
   line-height: 1.4em;
+}
+
+.project-overlay {
+  transition: all 0.2s;
 }
 
 .project-link-logo {
@@ -79,20 +84,30 @@
 @media screen and (max-width: 800px) {
   .project-container img {
     width: 100%;
+    border-radius: 6px 6px 0 0;
   }
 
   .project-information {
     position: initial;
     width: 100%;
-    transform: initial;
-    margin-top: 15px;
+    padding: 30px;
+    background: #212121;
+    border: 1px solid #474747;
+    border-radius: 0 0 6px 6px;
+    transform: translateY(-6px);
+  }
+
+  .project-container:nth-child(odd) .project-link-logo {
+    float: initial;
+  }
+
+  .project-description {
+    background: none;
+    border: none;
+    padding: 0;
   }
 
   .project-information * {
     text-align: left !important;
-  }
-
-  .project-container a {
-    float: left;
   }
 }

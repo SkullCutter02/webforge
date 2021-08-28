@@ -41,7 +41,7 @@ nav ul li {
 nav ul li a {
   font-weight: 800;
   text-decoration: none;
-  font-size: calc(0.4em + 0.8vw);
+  font-size: calc(1em + 0.1vw);
   transition: all 0.2s;
   position: relative;
 }

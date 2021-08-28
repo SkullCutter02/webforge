@@ -29,7 +29,7 @@ footer {
   color: #fff;
   text-decoration: none;
   font-weight: 800;
-  font-size: calc(0.4em + 0.8vw);
+  font-size: calc(1em + 0.1vw);
   transition: all 0.2s;
 }
 
@@ -49,10 +49,53 @@ footer .arrow {
   transition: all 0.2s;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 .arrow-image {
   color: var(--bgDark);
 }
 
 footer .arrow:hover {
   background: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-links ul {
+    position: initial;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .footer-links {
+    justify-self: center;
+  }
+
+  .footer-links li {
+    justify-content: center;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    padding-top: 30px;
+    grid-row-gap: 40px;
+  }
+
+  .logo {
+    position: initial;
+    justify-self: center;
+    text-align: center;
+  }
+
+  footer .arrow {
+    position: initial;
+  }
+
+  footer a {
+    justify-self: center;
+  }
 }
