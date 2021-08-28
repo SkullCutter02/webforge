@@ -8,10 +8,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1600"
-   height="230"
+   height="243.89998"
    version="1.1"
    id="svg842"
-   sodipodi:docname="white.svg"
+   sodipodi:docname="orange.svg"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
   <metadata
      id="metadata846">
@@ -35,13 +35,13 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1440"
-     inkscape:window-height="758"
+     inkscape:window-height="754"
      id="namedview844"
      showgrid="false"
-     inkscape:zoom="0.27708523"
-     inkscape:cx="427.43707"
-     inkscape:cy="176.76945"
-     inkscape:window-x="34"
+     inkscape:zoom="0.445"
+     inkscape:cx="620.55948"
+     inkscape:cy="260.87633"
+     inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg842"
@@ -50,10 +50,12 @@
      id="defs838">
     <linearGradient
        id="a"
-       x1="50%"
-       x2="50%"
-       y1="-10.959%"
-       y2="100%">
+       x1="281.42523"
+       x2="281.42523"
+       y1="-61.683872"
+       y2="562.84937"
+       gradientTransform="matrix(-2.8426734,0,0,0.35178153,1600,0)"
+       gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#57BBC1"
          stop-opacity=".25"
@@ -68,14 +70,8 @@
   <path
      fill="url(#a)"
      fill-rule="evenodd"
-     d="M 1599.995,68.777525 C 1289,68.777525 1190.102,-0.14226929 789,-1.6662249e-4 389,-1.6662249e-4 289,68.777525 0,68.777525 v 43.767625 h 1600 c 0,0 -0.01,-27.283715 -0.01,-43.767625 z"
+     d="M 1599.995,70.77701 C 1289,70.77701 1190.102,-0.1460072 789,2.258231e-4 389,2.258231e-4 289,70.77701 0,70.77701 v 172.9635 l 1600,0.15947 c 0,0 -0.01,-156.15994 -0.01,-173.12297 z"
      id="path840"
-     style="fill:#ffffff;fill-opacity:1;stroke-width:0.75393" />
-  <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:12.9707"
-     id="rect841"
-     width="1600"
-     height="49.364254"
-     x="0"
-     y="112.54515" />
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.764809"
+     sodipodi:nodetypes="ccccccc" />
 </svg>
