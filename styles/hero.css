@@ -6,19 +6,33 @@
 }
 
 .hero h1 {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(35px, -50%);
-  font-size: calc(3em + 1vw);
-  z-index: 20;
-  padding-right: 30px;
+  font-size: calc(2.3em + 1vw);
   font-family: var(--telegrafFont);
 }
 
-.hero h1 span {
+.we-create {
+  display: inline-block;
+}
+
+.hero .hero-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 20;
+  padding-right: 35px;
+  transform: translate(35px, -50%);
+}
+
+.hero-title span {
   color: var(--primaryColor);
+  font-size: calc(2.3em + 1vw);
+  font-weight: 900;
   font-family: var(--telegrafFont);
+}
+
+.we-create:after {
+  content: " ";
+  white-space: pre;
 }
 
 .waves {
@@ -74,5 +88,11 @@
   }
   50% {
     transform: translate3d(0, 0px, 0);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .we-create {
+    display: block;
   }
 }
