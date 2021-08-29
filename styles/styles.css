@@ -73,10 +73,12 @@ input {
 
 .white-container:not(.not-section)::after {
   background: url("../public/waves/down_white.svg");
+  width: 100%;
 }
 
 .black-container:not(.not-section)::after {
   background: url("../public/waves/down_black.svg");
+  width: 100%;
 }
 
 .container-title {
