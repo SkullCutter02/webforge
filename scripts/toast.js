@@ -13,6 +13,8 @@ export function Toast(options) {
   this.toastEl = document.querySelector(".toastjs");
 
   this._init();
+
+  setTimeout(() => this._close(), 4000);
 }
 
 Toast.prototype._createElements = function () {
@@ -99,12 +101,7 @@ Toast.prototype._open = function () {
     customButtons = customButtons.join("");
   }
 
-  this.toastEl.innerHTML =
-    "\n        <p>" +
-    this.options.message +
-    '</p>\n        <button type="button" class="toastjs-btn toastjs-btn--close">Close</button>\n        ' +
-    customButtons +
-    "\n    ";
+  this.toastEl.innerHTML = "\n        <p>" + this.options.message;
 
   this.focusedElBeforeOpen = document.activeElement;
   document.querySelector(".toastjs-btn--close").focus();
