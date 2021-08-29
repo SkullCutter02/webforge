@@ -1,5 +1,12 @@
+import { Toast } from "./toast.js";
+
 const errMsg = document.querySelector("#contact-us-form-err-msg");
 const formBtn = document.querySelector("#contact-us-form-button");
+
+new Toast({
+  message: "Your message has been sent!",
+  type: "success",
+});
 
 document
   .querySelector(".contact-us-form")
@@ -41,6 +48,11 @@ document
       e.target.name.value = "";
       e.target.email.value = "";
       e.target.message.value = "";
+
+      new Toast({
+        message: "Your message has been sent!",
+        type: "success",
+      });
     }
 
     formBtn.disabled = false;
