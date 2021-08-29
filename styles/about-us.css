@@ -54,7 +54,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 400px;
-  grid-column-gap: 10vw;
+  grid-column-gap: 5vw;
   margin-top: 40px;
 }
 

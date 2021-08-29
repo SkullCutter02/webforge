@@ -46,7 +46,6 @@ footer .arrow {
   right: 0;
   display: grid;
   place-content: center;
-  transition: all 0.2s;
 }
 
 footer a {
@@ -57,8 +56,12 @@ footer a {
   color: var(--bgDark);
 }
 
-footer .arrow:hover {
-  background: #fff;
+footer .arrow i {
+  transition: all 0.5s;
+}
+
+footer .arrow:hover i {
+  transform: rotateX(360deg);
 }
 
 @media screen and (max-width: 900px) {
