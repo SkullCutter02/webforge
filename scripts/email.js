@@ -3,11 +3,6 @@ import { Toast } from "./toast.js";
 const errMsg = document.querySelector("#contact-us-form-err-msg");
 const formBtn = document.querySelector("#contact-us-form-button");
 
-new Toast({
-  message: "Your message has been sent!",
-  type: "success",
-});
-
 document
   .querySelector(".contact-us-form")
   .addEventListener("submit", async (e) => {
