@@ -30,6 +30,11 @@ input {
   display: block;
 }
 
+button:disabled {
+  cursor: not-allowed !important;
+  opacity: 50% !important;
+}
+
 .container {
   padding: 290px 6vw 150px 6vw;
   margin: 50px 0;
@@ -113,4 +118,9 @@ input {
   font-size: calc(0.6em + 0.6vw);
   line-height: 1.8em;
   font-weight: 300;
+}
+
+.err-msg {
+  color: var(--primaryColor);
+  font-size: 0.8rem;
 }

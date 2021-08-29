@@ -82,7 +82,7 @@
   border: solid 2px var(--primaryColor);
 }
 
-.contact-us-form button:hover {
+.contact-us-form button:hover:not(:disabled) {
   box-shadow: inset 300px 0 0 0 #fff;
   color: var(--primaryColor);
 }
