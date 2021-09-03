@@ -168,14 +168,6 @@ nav ul li a:hover:after {
   left: 8px;
 }
 
-.mobile-nav {
-  display: none;
-}
-
-.open .mobile-nav {
-  display: block;
-}
-
 @media screen and (max-width: 620px) {
   .hamburger {
     display: block;
