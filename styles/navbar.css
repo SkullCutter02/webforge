@@ -6,8 +6,7 @@
   flex-direction: column;
   justify-content: center;
   row-gap: 20px;
-  align-items: flex-start;
-  padding: 50px;
+  align-items: center;
   top: var(--navbarHeight);
   width: 100vw;
   height: calc(100vh - var(--navbarHeight));
@@ -194,7 +193,7 @@ nav ul li a:hover:after {
   #mobile-nav li a {
     text-decoration: none;
     color: #3e3e3e;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     transition: all 0.2s;
   }
@@ -209,7 +208,7 @@ nav ul li a:hover:after {
 
   #mobile-nav li span {
     color: #3e3e3e;
-    font-size: 70px;
+    font-size: 60px;
     font-family: var(--telegrafFont);
     transition: all 0.2s;
   }
