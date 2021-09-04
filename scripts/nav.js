@@ -6,8 +6,7 @@ window.addEventListener("scroll", () => {
   const scroll = window.pageYOffset;
 
   if (scroll > lastScroll) {
-    navbar.style.top =
-      "-" + getComputedStyle(document.body).getPropertyValue("--navbarHeight");
+    navbar.style.top = "-80px";
   } else {
     navbar.style.top = "0";
   }
