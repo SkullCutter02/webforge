@@ -6,7 +6,8 @@
   flex-direction: column;
   justify-content: center;
   row-gap: 20px;
-  align-items: center;
+  align-items: flex-start;
+  padding: 10vw 10vw var(--navbarHeight);
   top: var(--navbarHeight);
   width: 100vw;
   height: calc(100vh - var(--navbarHeight));
