@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="209.25095mm"
-   height="38.245987mm"
-   viewBox="0 0 209.25095 38.245988"
+   width="325.6676mm"
+   height="62.019913mm"
+   viewBox="0 0 325.66761 62.019914"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
@@ -23,15 +23,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="366.66029"
-     inkscape:cy="-2.6731187"
+     inkscape:zoom="0.35"
+     inkscape:cx="586.66028"
+     inkscape:cy="39.223513"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1439"
-     inkscape:window-height="759"
+     inkscape:window-height="755"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0" />
@@ -51,12 +51,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(2.2466721,-95.26672)">
+     transform="translate(60.455004,-84.18157)">
     <g
        aria-label="webforge"
        id="text835"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#dfdfdf;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       transform="matrix(2.1337589,0,0,2.1337589,-116.07286,-129.69036)">
+       transform="matrix(3.3208747,0,0,3.3208747,-237.60834,-263.43449)">
       <path
          d="m 54.879962,115.94288 0.740831,3.91582 h 0.158749 l 0.793748,-3.91582 h 1.904994 l 0.793747,3.91582 h 0.15875 l 0.740831,-3.91582 h 1.534578 l -1.164163,5.39748 h -2.222493 l -0.740831,-3.70415 H 57.47287 l -0.740831,3.70415 h -2.222492 l -1.164163,-5.39748 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#dfdfdf;fill-opacity:1;stroke-width:0.264583"
@@ -94,7 +94,7 @@
        aria-label="webforge"
        id="text869"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.264584"
-       transform="matrix(2.1337589,0,0,2.1337589,-116.07286,-129.69036)">
+       transform="matrix(3.3208747,0,0,3.3208747,-237.60834,-263.43449)">
       <path
          d="m 104.28509,115.94352 0.74084,3.91582 h 0.15874 l 0.79375,-3.91582 h 1.905 l 0.79374,3.91582 h 0.15875 l 0.74083,-3.91582 h 1.53458 l -1.16416,5.39748 h -2.22249 l -0.74083,-3.70415 H 106.878 l -0.74083,3.70415 h -2.22249 l -1.16416,-5.39748 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#f1f1f1;fill-opacity:1;stroke-width:0.264584"
@@ -132,7 +132,7 @@
        aria-label="webforge"
        id="text873"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       transform="matrix(2.1337589,0,0,2.1337589,-116.07286,-129.69036)">
+       transform="matrix(3.3208747,0,0,3.3208747,-237.60834,-265.93028)">
       <path
          d="m 54.879962,107.43842 0.740831,3.91583 h 0.158749 l 0.793748,-3.91583 h 1.904994 l 0.793747,3.91583 h 0.15875 l 0.740831,-3.91583 h 1.534578 l -1.164163,5.39749 h -2.222493 l -0.740831,-3.70416 H 57.47287 l -0.740831,3.70416 h -2.222492 l -1.164163,-5.39749 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#f1f1f1;fill-opacity:1;stroke-width:0.264583"
@@ -170,7 +170,7 @@
        aria-label="webforge"
        id="text877"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#dfdfdf;fill-opacity:1;stroke:none;stroke-width:0.264584"
-       transform="matrix(2.1337589,0,0,2.1337589,-116.07286,-129.69036)">
+       transform="matrix(3.3208747,0,0,3.3208747,-237.60834,-265.93028)">
       <path
          d="m 104.28509,107.43907 0.74084,3.91582 h 0.15874 l 0.79375,-3.91582 h 1.905 l 0.79374,3.91582 h 0.15875 l 0.74083,-3.91582 h 1.53458 l -1.16416,5.39748 h -2.22249 l -0.74083,-3.70416 H 106.878 l -0.74083,3.70416 h -2.22249 l -1.16416,-5.39748 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TTFirsNeue-DemiBold;-inkscape-font-specification:TTFirsNeue-DemiBold;fill:#dfdfdf;fill-opacity:1;stroke-width:0.264584"
